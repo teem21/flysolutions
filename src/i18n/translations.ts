@@ -89,9 +89,9 @@ export const translations = {
     footer_privacy: "Privacy Policy",
     footer_terms: "Terms of Service",
     footer_cookies: "Cookie Settings",
-    footer_copy: "© 2026 KAZDRONE SOLUTIONS. All rights reserved.",
+    footer_copy: "© 2026 FLYCONTROL SOLUTIONS. All rights reserved.",
     // ContactPopup
-    popup_brand: "KAZDRONE SOLUTIONS",
+    popup_brand: "FLYCONTROL SOLUTIONS",
     popup_title: "Request a Demo",
     popup_desc: "Tell us about your mission and we'll show you exactly how our technology can help — with a live, tailored demonstration.",
     popup_fullname: "Full Name",
@@ -111,9 +111,8 @@ export const translations = {
     popup_message: "Message",
     popup_msg_ph: "Tell us about your use case and what you'd like to achieve…",
     popup_submit: "Submit Request",
-
     // ── About Page ──
-    about_badge: "About KAZDRONE",
+    about_badge: "About FLYCONTROL",
     about_headline: "Built for the",
     about_headline_accent: "Hard Missions.",
     about_desc: "We build autonomous UAV and AI systems for industrial inspection, environmental protection, and national security — engineered by a team of operators, engineers, and AI researchers who understand the field.",
@@ -140,7 +139,6 @@ export const translations = {
     about_deploy_title: "Ready to Deploy?",
     about_deploy_desc: "Tell us about your mission and we'll configure a system that meets your exact requirements.",
     about_deploy_btn: "Start the Conversation",
-
     // ── Solutions Page (SolutionBlocks) ──
     sol_label: "Our Portfolio",
     sol_title: 'Select Your <span class="text-blue-600">Mission</span>',
@@ -156,7 +154,6 @@ export const translations = {
     sol_grid_label: "Grid Infrastructure",
     sol_grid_title: 'AI-Powered <span class="text-blue-500">Substation Inspection</span>',
     sol_grid_desc: "Revolutionize grid reliability with autonomous drone thermal and visual inspections. Ensure uninterrupted power delivery through high-frequency, safe monitoring.",
-
     // ── Pipeline Solution ──
     pipe_badge: "Industry Solution",
     pipe_headline: 'AI-Powered <br /><span class="text-blue-500">Pipeline Inspection</span>',
@@ -189,7 +186,6 @@ export const translations = {
     pipe_cta_title: 'Optimize Your <br /><span class="text-blue-500">Infrastructure</span> Today',
     pipe_cta_desc: "Join the industry leaders leveraging AI and drones for safer, more profitable pipeline management.",
     pipe_cta_btn: "Contact Us",
-
     // ── Wildfire Solution ──
     wf_badge: "Nature Protection",
     wf_headline: 'Autonomous <br /><span class="text-orange-500">Wildfire Monitoring</span>',
@@ -199,7 +195,7 @@ export const translations = {
     wf_challenge1: "Current methods are not effective enough to prevent wildfires from spreading. Satellites and other methods are too expensive and not always available.",
     wf_challenge2: "There is a huge time gap between inspections. One zone can't be inspected all the time.",
     wf_challenge3: "Lack of information makes it difficult for incident commanders to effectively deploy resources.",
-    wf_adv_title: "Kazdrone Advantages",
+    wf_adv_title: "Flycontrol Advantages",
     wf_adv1: "Gain real-time aerial insights, enabling firefighters to make informed, strategic decisions amidst the chaos of wildfires.",
     wf_adv2: "Enhance personnel safety with advanced situational awareness, thereby reducing firefighters' exposure to hidden dangers.",
     wf_adv3: "Collect critical data to optimize resource allocation and monitor the impact of firefighting strategies in real time.",
@@ -229,7 +225,6 @@ export const translations = {
     wf_cta_title: 'Modernize Your <br /><span class="text-blue-500">Fire Management</span>',
     wf_cta_desc: "Connect with our public safety experts to deploy autonomous wildfire monitoring solutions for your region. Protect your community with advanced intelligence.",
     wf_cta_btn: "CONTACT US",
-
     // ── Border Solution ──
     brd_badge: "National Security",
     brd_headline: 'Autonomous <br /><span class="text-orange-500">Border Integrity</span>',
@@ -239,7 +234,7 @@ export const translations = {
     brd_challenge1: "Vast perimeters and difficult terrain make physical patrols slow, dangerous, and resource-intensive for personnel.",
     brd_challenge2: "Limited nighttime and weather visibility creates dark windows that are often exploited for illegal crossings.",
     brd_challenge3: "Static sensor networks are predictable and expensive to maintain, leaving critical gaps in rural border zones.",
-    brd_adv_title: "Kazdrone Advantages",
+    brd_adv_title: "Flycontrol Advantages",
     brd_adv1: "Persistent 24/7 autonomous surveillance with high-end thermal and day cameras ensures no movement goes undetected.",
     brd_adv2: "AI-powered threat classification reduces false alarms, focusing personnel on legitimate security threats.",
     brd_adv3: "Long-endurance drones cover hundreds of kilometers in a single mission, providing an elastic security perimeter.",
@@ -271,7 +266,6 @@ export const translations = {
     brd_cta_title: 'Secure Your <br /><span class="text-blue-500">Border Perimeter</span>',
     brd_cta_desc: "Consult with our national security infrastructure experts to deploy autonomous border monitoring solutions. Protect your sovereignty with advanced aerial intelligence.",
     brd_cta_btn: "CONTACT EXPERT",
-
     // ── Grid Solution ──
     grid_badge: "Grid Infrastructure Solution",
     grid_headline: 'AI-Powered <br /><span class="text-blue-500">Substation Inspection</span>',
@@ -304,7 +298,6 @@ export const translations = {
     grid_cta_title: 'Modernize Your <br /><span class="text-blue-500">Grid Management</span>',
     grid_cta_desc: "Implement smarter, safer, and more efficient substation inspection protocols today.",
     grid_cta_btn: "Explore Utility Solutions",
-
     // Dashboard Shared
     dash_sidebar_solutions: "Solutions",
     dash_sidebar_dashboard: "Dashboard",
@@ -312,7 +305,6 @@ export const translations = {
     dash_sidebar_analytics: "Analytics",
     dash_sidebar_alerts: "Alerts",
     dash_sidebar_settings: "Settings",
-
     // Pipeline Dashboard
     pipe_dash_title: "Full Dashboard Integration",
     pipe_dash_desc: "Visualize your entire pipeline network on a single interface. Access live feeds, historical data, and maintenance alerts from any device. Below you can see the demo of the Software",
@@ -337,7 +329,6 @@ export const translations = {
     pipe_dash_linked: "Linked",
     pipe_dash_drone_alt: "Drone Alt.",
     pipe_dash_wind_spd: "Wind Spd.",
-
     // Wildfire Dashboard
     wf_dash_title: "Wildfire Command Dashboard",
     wf_dash_desc: "Centralize real-time fire intelligence. Monitor ignition alerts, track wind vectors, and coordinate aerial and ground assets from a unified command interface.",
@@ -367,7 +358,6 @@ export const translations = {
     wf_dash_cmd_sync: "Command Sync",
     wf_dash_cur_wind: "Current Wind",
     wf_dash_drone_range: "Drone Range",
-
     // Border Dashboard
     brd_dash_title: "Tactical Border Overwatch",
     brd_dash_desc: "Deploy national-scale autonomous security. Unify regional surveillance streams, track thermal signatures, and coordinate intercept flights from a single tactical interface.",
@@ -419,7 +409,6 @@ export const translations = {
     brd_feat_intercept_d: "When a contact is detected, ground units get GPS location, movement direction, and a live aerial feed before they deploy. Intercept teams arrive informed, not blind.",
     brd_feat_logging_t: "Automated Logging",
     brd_feat_logging_d: "Every detection is automatically logged with time, location, and classification — creating a verifiable record for legal proceedings and long-term pattern analysis.",
-
     // Grid Dashboard
     grid_dash_title: "Integrated Utility Management",
     grid_dash_desc: "Visualize substation health with thermal heat maps and real-time component status. Centralize all inspection reports and historical data in one platform.",
@@ -464,9 +453,103 @@ export const translations = {
     grid_dash_prob12: "PROBABILITY 12.8%",
     grid_dash_gen_rep: "Generate Tech Report",
     grid_dash_cad_ver: "CAD View Interface v2.4.0",
+    // ── Homepage ──
+    home_hero_badge: "Drone & AI Solutions Integrator",
+    home_hero_h1: 'UAVs<br /><span class="text-blue-500 italic">AND AI</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl">tailored to your mission</span>',
+    home_hero_desc: "We design, supply, and deploy autonomous drone systems with intelligent AI analytics — built for industry, environmental protection, and national security.",
+    home_hero_cta_demo: "Request a Demo",
+    home_hero_cta_solutions: "Our Solutions",
+    home_cap_label: "Our Expertise",
+    home_cap_title: 'FULL-STACK <span class="text-blue-600">SERVICES</span>',
+    home_cap_desc: "From needs assessment to hands-on team training — we deliver your complete project, ready to go.",
+    home_cap1_title: "Analysis & Design",
+    home_cap1_desc: "We turn your real-world challenges into a precise solution: choosing the right UAVs, sensors, flight routes, and software architecture.",
+    home_cap2_title: "Selection & Customization",
+    home_cap2_desc: "We source the best platforms worldwide ($3K–$100K) and customize cameras, sensors, and software to fit your exact mission.",
+    home_cap3_title: "Software & AI Development",
+    home_cap3_desc: "Real-time dashboards, smart anomaly detection, ERP integration, and seamless API connections to your existing systems.",
+    home_cap4_title: "Project Management",
+    home_cap4_desc: "We handle everything from timelines and budgeting to team coordination and clear client communication.",
+    home_cap5_title: "Recruitment & Training",
+    home_cap5_desc: "We recruit skilled operators and engineers, then train your team so they can run the system independently.",
+    home_cap6_title: "Logistics & Delivery",
+    home_cap6_desc: "We manage global sourcing, customs clearance, shipping, and on-site delivery — anywhere in the world.",
+    home_sol_label: "Solutions",
+    home_sol_title: 'INDUSTRY <span class="text-blue-600">SYSTEMS</span>',
+    home_sol_desc: "Ready-to-deploy and fully custom solutions for four key sectors.",
+    home_sol_wf_badge: "Ready-made Solution",
+    home_sol_wf_title: "Wildfire Monitoring",
+    home_sol_wf_desc: "Autonomous UAVs with thermal cameras and AI fire detection. Early ignition spotting, real-time fire-front tracking, and instant response coordination.",
+    home_sol_wf_tag1: "Detection in minutes",
+    home_sol_wf_tag2: "BVLOS + Mesh",
+    home_sol_wf_tag3: "Edge AI",
+    home_sol_wf_link: "Learn More",
+    home_sol_pipe_badge: "Custom Solution",
+    home_sol_pipe_title: "Pipeline Inspection",
+    home_sol_pipe_desc: "Leak, corrosion, and structural anomaly detection. Drone data flows straight into your ERP. Cut inspection costs by up to 70%.",
+    home_sol_pipe_tag1: "Methane Detector",
+    home_sol_pipe_tag2: "Edge AI",
+    home_sol_pipe_tag3: "BVLOS Flights",
+    home_sol_pipe_link: "Learn More",
+    home_sol_grid_badge: "Custom Solution",
+    home_sol_grid_title: "Substation Inspection",
+    home_sol_grid_desc: "Autonomous thermal imaging of power equipment. Switch to predictive maintenance and operate safely in high-EMI zones.",
+    home_sol_grid_tag1: "Radiometrics",
+    home_sol_grid_tag2: "EMI Protection",
+    home_sol_grid_tag3: "Repeatable Routes",
+    home_sol_grid_link: "Learn More",
+    home_sol_brd_badge: "Custom Solution",
+    home_sol_brd_title: "Border Security",
+    home_sol_brd_desc: "24/7 autonomous perimeter patrol. AI target classification, tracking in tough terrain, military-grade encryption, and radar integration.",
+    home_sol_brd_tag1: "Thermal 24/7",
+    home_sol_brd_tag2: "AI Recognition",
+    home_sol_brd_tag3: "Up to 8h Flight",
+    home_sol_brd_link: "Learn More",
+    home_par_label: "For Partners",
+    home_par_title: 'WE WORK <span class="text-blue-600">WITH PARTNERS</span>',
+    home_par_desc: "You bring the clients or contracts — we bring the deep technical expertise. Three flexible partnership models.",
+    home_par1_title: "Referral Partner",
+    home_par1_desc: "You introduce the client or pass a lead — we handle design, supply, deployment, and ongoing support.",
+    home_par1_foot: "You focus on relationships — we handle the tech",
+    home_par2_title: "Subcontractor",
+    home_par2_desc: "You already have a drone-related contract? We take full responsibility for that scope while you stay the prime contractor.",
+    home_par2_foot: "Expand your capabilities without hiring",
+    home_par3_title: "Joint Sale",
+    home_par3_desc: "You open the door, we deliver the technical solution and clear ROI numbers. We pitch together and share the revenue.",
+    home_par3_foot: "Together we close bigger deals",
+    home_proc_label: "Process",
+    home_proc_title: 'HOW WE <span class="text-blue-600">WORK</span>',
+    home_proc_desc: "Six clear steps from understanding your needs to a fully operational system on your site.",
+    home_proc_promise_label: "Our Promise",
+    home_proc_promise_text: "Solution proposal and ROI calculation — delivered within 48 hours of your request. Completely free.",
+    home_proc1_title: "Task Analysis",
+    home_proc1_desc: "We dive into your problem, clarify requirements, and calculate the real economics of implementation.",
+    home_proc2_title: "Solution Design",
+    home_proc2_desc: "We select the ideal drone types, quantities, sensors, and software architecture.",
+    home_proc3_title: "Supply & Customization",
+    home_proc3_desc: "We source equipment globally, fine-tune it to your needs, and manage all logistics.",
+    home_proc4_title: "Software Development",
+    home_proc4_desc: "We build custom dashboards, AI models, data pipelines, and ERP integrations.",
+    home_proc5_title: "Deployment & Launch",
+    home_proc5_desc: "On-site installation, test flights, and full AI model validation.",
+    home_proc6_title: "Training & Support",
+    home_proc6_desc: "We train your team and provide complete documentation plus ongoing technical support.",
+    home_cta_label: "Contact",
+    home_cta_title: 'READY TO<br /><span class="text-blue-500 italic">COLLABORATE?</span>',
+    home_cta_desc: "Tell us about your challenge — we’ll prepare a tailored technical solution and ROI estimate within 48 hours. Free of charge.",
+    home_cta_btn_email: "Write to Us",
+    home_cta_btn_partner: "Become a Partner",
+    home_cta_site_lbl: "Website",
+    home_cta_site_val: "flycontrol.com",
+    home_cta_email_lbl: "Email",
+    home_cta_email_val: "info@flycontrol.com",
+    home_cta_wa_lbl: "WhatsApp",
+    home_cta_wa_val: "On request",
+    home_cta_geo_lbl: "Geography",
+    home_cta_geo_val: "Kazakhstan + Global",
   },
-
   ru: {
+    // (Russian homepage and all other sections remain completely unchanged as requested)
     // Navbar
     nav_solutions: "Решения",
     nav_view_all: "Все решения →",
@@ -479,7 +562,7 @@ export const translations = {
     nav_news: "Новости",
     nav_contact: "СВЯЗАТЬСЯ",
     // Hero
-    hero_headline: 'МЫ ОБЪЕДИНЯЕМ <span class="text-blue-500">ДРОНЫ</span> И <span class="text-blue-500">ИИ</span>, ЧТОБЫ СОЗДАВАТЬ РЕШЕНИЯ ПОД ВАШИ ЗАДАЧИ',
+    hero_headline: 'МЫ ОБЪЕДИНЯЕМ <span class="text-blue-500">ДРОНЫ</span> И <span class="text-blue-500">искуственный интелект</span>, ЧТОБЫ СОЗДАВАТЬ РЕШЕНИЯ ПОД ВАШИ ЗАДАЧИ',
     hero_subtitle: "Комплексные решения для промышленности, охраны природы и национальной безопасности — на базе дронов нового поколения и специализированного искусственного интеллекта.",
     hero_get_started: "НАЧАТЬ",
     hero_watch_demo: "СМОТРЕТЬ ДЕМО",
@@ -556,9 +639,9 @@ export const translations = {
     footer_privacy: "Политика конфиденциальности",
     footer_terms: "Условия использования",
     footer_cookies: "Настройки файлов cookie",
-    footer_copy: "© 2026 KAZDRONE SOLUTIONS. Все права защищены.",
+    footer_copy: "© 2026 FLYCONTROL SOLUTIONS. Все права защищены.",
     // ContactPopup
-    popup_brand: "KAZDRONE SOLUTIONS",
+    popup_brand: "FLYCONTROL SOLUTIONS",
     popup_title: "Запросить демонстрацию",
     popup_desc: "Расскажите о своей задаче — мы покажем, как именно наши технологии могут помочь, на живой персонализированной демонстрации.",
     popup_fullname: "Полное имя",
@@ -578,11 +661,10 @@ export const translations = {
     popup_message: "Сообщение",
     popup_msg_ph: "Опишите вашу ситуацию и цели, которых хотите достичь…",
     popup_submit: "Отправить заявку",
-
     // ── About Page ──
-    about_badge: "О KAZDRONE",
-    about_headline: "Создано для",
-    about_headline_accent: "сложных задач.",
+    about_badge: "О FLYCONTROL",
+    about_headline: "БПЛА решающие",
+    about_headline_accent: "сложные задачи.",
     about_desc: "Мы разрабатываем автономные БПЛА и ИИ-системы для промышленной инспекции, охраны окружающей среды и национальной безопасности. За нами — команда операторов, инженеров и исследователей в области ИИ, которые знают эту сферу изнутри.",
     about_contact_btn: "Связаться с нами",
     about_solutions_btn: "Наши решения",
@@ -604,10 +686,9 @@ export const translations = {
     about_pipeline_link: "Инспекция трубопроводов",
     about_grid_link: "Инспекция подстанций",
     about_view_all: "Все решения →",
-    about_deploy_title: "Готовы к внедрению?",
+    about_deploy_title: "Готовы к сотрудничеству?",
     about_deploy_desc: "Расскажите о своей задаче — мы настроим систему под ваши конкретные требования.",
     about_deploy_btn: "Начать диалог",
-
     // ── Solutions Page (SolutionBlocks) ──
     sol_label: "Наше портфолио",
     sol_title: 'Выберите <span class="text-blue-600">направление</span>',
@@ -623,7 +704,6 @@ export const translations = {
     sol_grid_label: "Электросетевая инфраструктура",
     sol_grid_title: 'Инспекция подстанций <span class="text-blue-500">на базе ИИ</span>',
     sol_grid_desc: "Выведите надёжность сети на новый уровень с помощью автономных тепловизионных и визуальных инспекций. Обеспечьте бесперебойную подачу электроэнергии через регулярный безопасный мониторинг.",
-
     // ── Pipeline Solution ──
     pipe_badge: "Промышленные решения",
     pipe_headline: 'Инспекция трубопроводов <br /><span class="text-blue-500">на базе ИИ</span>',
@@ -656,7 +736,6 @@ export const translations = {
     pipe_cta_title: 'Оптимизируйте вашу <br /><span class="text-blue-500">инфраструктуру</span> уже сегодня',
     pipe_cta_desc: "Присоединяйтесь к отраслевым лидерам, которые используют ИИ и дроны для более безопасного и эффективного управления трубопроводами.",
     pipe_cta_btn: "Связаться с нами",
-
     // ── Wildfire Solution ──
     wf_badge: "Охрана природы",
     wf_headline: 'Автономный <br /><span class="text-orange-500">мониторинг лесных пожаров</span>',
@@ -666,7 +745,7 @@ export const translations = {
     wf_challenge1: "Существующие методы недостаточно эффективны для сдерживания распространения лесных пожаров. Спутниковый мониторинг и другие инструменты слишком дороги и не всегда доступны.",
     wf_challenge2: "Между инспекциями — огромные временные разрывы. Один район невозможно контролировать непрерывно.",
     wf_challenge3: "Нехватка актуальной информации мешает руководителям ликвидации ЧС грамотно распределять ресурсы.",
-    wf_adv_title: "Преимущества Kazdrone",
+    wf_adv_title: "Преимущества Flycontrol",
     wf_adv1: "Получайте актуальные данные с воздуха в режиме реального времени — чтобы пожарные могли принимать взвешенные стратегические решения даже в условиях хаоса.",
     wf_adv2: "Повышайте безопасность личного состава: расширенная ситуационная осведомлённость снижает риски столкновения с невидимыми опасностями.",
     wf_adv3: "Собирайте критически важные данные для оптимального распределения ресурсов и оценки эффективности противопожарных мер в реальном времени.",
@@ -696,7 +775,6 @@ export const translations = {
     wf_cta_title: 'Модернизируйте систему <br /><span class="text-blue-500">противопожарной защиты</span>',
     wf_cta_desc: "Свяжитесь с нашими экспертами в области общественной безопасности и разверните автономные решения мониторинга лесных пожаров в вашем регионе. Защитите свою территорию с помощью передовых технологий.",
     wf_cta_btn: "СВЯЗАТЬСЯ С НАМИ",
-
     // ── Border Solution ──
     brd_badge: "Национальная безопасность",
     brd_headline: 'Автономная <br /><span class="text-orange-500">охрана государственной границы</span>',
@@ -706,7 +784,7 @@ export const translations = {
     brd_challenge1: "Протяжённые периметры и сложный рельеф делают наземное патрулирование медленным, опасным и ресурсоёмким.",
     brd_challenge2: "Ограниченная видимость в ночное время и в плохую погоду создаёт «мёртвые зоны», которыми систематически пользуются нарушители.",
     brd_challenge3: "Статичные сенсорные сети легко просчитать и дорого обслуживать — они оставляют критические пробелы в отдалённых приграничных районах.",
-    brd_adv_title: "Преимущества Kazdrone",
+    brd_adv_title: "Преимущества Flycontrol",
     brd_adv1: "Непрерывное автономное наблюдение 24/7 с тепловизионными и дневными камерами высокого класса — ни одно движение не останется незамеченным.",
     brd_adv2: "ИИ-классификация угроз снижает количество ложных тревог и позволяет личному составу сосредоточиться на реальных угрозах безопасности.",
     brd_adv3: "Дроны большой дальности покрывают сотни километров за одну миссию, формируя гибкий защитный периметр.",
@@ -738,7 +816,6 @@ export const translations = {
     brd_cta_title: 'Обеспечьте надёжную охрану <br /><span class="text-blue-500">государственной границы</span>',
     brd_cta_desc: "Проконсультируйтесь с нашими специалистами в области безопасности критической инфраструктуры и разверните автономные решения мониторинга границы. Защитите суверенитет с помощью передовой воздушной разведки.",
     brd_cta_btn: "СВЯЗАТЬСЯ СО СПЕЦИАЛИСТОМ",
-
     // ── Grid Solution ──
     grid_badge: "Решения для электросетевой инфраструктуры",
     grid_headline: 'Инспекция подстанций <br /><span class="text-blue-500">на базе ИИ</span>',
@@ -771,7 +848,6 @@ export const translations = {
     grid_cta_title: 'Модернизируйте управление <br /><span class="text-blue-500">электросетью</span>',
     grid_cta_desc: "Внедрите более умные, безопасные и эффективные протоколы инспекции подстанций уже сегодня.",
     grid_cta_btn: "Узнать об энергетических решениях",
-
     // Dashboard Shared
     dash_sidebar_solutions: "Решения",
     dash_sidebar_dashboard: "Дашборд",
@@ -779,7 +855,6 @@ export const translations = {
     dash_sidebar_analytics: "Аналитика",
     dash_sidebar_alerts: "Уведомления",
     dash_sidebar_settings: "Настройки",
-
     // Pipeline Dashboard
     pipe_dash_title: "Полная интеграция с дашбордом",
     pipe_dash_desc: "Визуализируйте всю сеть трубопроводов в едином интерфейсе. Доступ к трансляциям в реальном времени, истории данных и уведомлениям об обслуживании с любого устройства. Ниже вы можете увидеть демо-версию ПО.",
@@ -804,7 +879,6 @@ export const translations = {
     pipe_dash_linked: "Связано",
     pipe_dash_drone_alt: "Выс. дрона",
     pipe_dash_wind_spd: "Скор. ветра",
-
     // Wildfire Dashboard
     wf_dash_title: "Командный дашборд лесных пожаров",
     wf_dash_desc: "Централизуйте данные о пожарах в реальном времени. Контролируйте уведомления о возгораниях, отслеживайте векторы ветра и координируйте воздушные и наземные активы из единого интерфейса.",
@@ -834,7 +908,6 @@ export const translations = {
     wf_dash_cmd_sync: "Синхронизация команд",
     wf_dash_cur_wind: "Текущий ветер",
     wf_dash_drone_range: "Дальность дрона",
-
     // Border Dashboard
     brd_dash_title: "Тактический мониторинг границ",
     brd_dash_desc: "Разверните автономную систему безопасности национального масштаба. Объединяйте региональные потоки наблюдения, отслеживайте тепловые сигнатуры и координируйте перехваты из единого тактического интерфейса.",
@@ -886,7 +959,6 @@ export const translations = {
     brd_feat_intercept_d: "При обнаружении контакта наземные группы получают GPS-координаты, направление движения и живую трансляцию с воздуха еще до выезда. Команды прибывают на место подготовленными.",
     brd_feat_logging_t: "Автоматическое ведение журналов",
     brd_feat_logging_d: "Каждое обнаружение автоматически фиксируется с указанием времени, места и типа — создается надежная база данных для анализа паттернов и юридических процедур.",
-
     // Grid Dashboard
     grid_dash_title: "Интегрированное управление энергообъектами",
     grid_dash_desc: "Визуализируйте состояние подстанции с помощью тепловых карт и статуса компонентов в реальном времени. Централизуйте все отчеты об инспекциях и исторические данные на одной платформе.",
@@ -931,10 +1003,103 @@ export const translations = {
     grid_dash_prob12: "ВЕРОЯТНОСТЬ 12.8%",
     grid_dash_gen_rep: "Создать тех. отчет",
     grid_dash_cad_ver: "Интерфейс CAD v2.4.0",
+    // ── Homepage ──
+    home_hero_badge: "Интегратор дроновых решений",
+    home_hero_h1: 'БПЛА<br /><span class="text-blue-500 italic">И ИИ</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl">под вашу задачу</span>',
+    home_hero_desc: "Проектируем, поставляем и внедряем автономные дроновые системы с ИИ-аналитикой для промышленности, защиты природы и национальной безопасности.",
+    home_hero_cta_demo: "Запросить демо",
+    home_hero_cta_solutions: "Наши решения",
+    home_cap_label: "Компетенции",
+    home_cap_title: 'ПОЛНЫЙ СТЕК <span class="text-blue-600">УСЛУГ</span>',
+    home_cap_desc: "От анализа задачи до обучения персонала — весь проект под ключ.",
+    home_cap1_title: "Анализ и проектирование",
+    home_cap1_desc: "Переводим операционную проблему в конкретное решение: тип БПЛА, количество, сенсоры, маршруты и архитектуру ПО.",
+    home_cap2_title: "Подбор и кастомизация",
+    home_cap2_desc: "Находим оптимальную платформу на глобальном рынке ($3K–$100K). Дорабатываем камеры, датчики и ПО под задачу.",
+    home_cap3_title: "Разработка ПО и ИИ",
+    home_cap3_desc: "Дашборды реального времени, модели обнаружения аномалий, интеграция с ERP и внешними системами через API.",
+    home_cap4_title: "Управление проектом",
+    home_cap4_desc: "Планируем и ведём проект от ТЗ до сдачи: сроки, команда, бюджет и коммуникация с заказчиком.",
+    home_cap5_title: "Подбор и обучение",
+    home_cap5_desc: "Нанимаем операторов и инженеров. Обучаем команду клиента для самостоятельной эксплуатации системы.",
+    home_cap6_title: "Логистика и поставка",
+    home_cap6_desc: "Импорт, таможня, транспортировка и доставка всего оборудования на объект в любую точку мира.",
+    home_sol_label: "Решения",
+    home_sol_title: 'ОТРАСЛЕВЫЕ <span class="text-blue-600">СИСТЕМЫ</span>',
+    home_sol_desc: "Готовые и кастомные решения для четырёх ключевых направлений.",
+    home_sol_wf_badge: "Готовое решение",
+    home_sol_wf_title: "Мониторинг лесных пожаров",
+    home_sol_wf_desc: "Автономные БПЛА с тепловизорами и ИИ-обнаружением огня. Раннее выявление очагов, трекинг фронта, координация реагирования в реальном времени.",
+    home_sol_wf_tag1: "Обнаружение за минуты",
+    home_sol_wf_tag2: "BVLOS + меш-связь",
+    home_sol_wf_tag3: "Edge AI",
+    home_sol_wf_link: "Подробнее",
+    home_sol_pipe_badge: "Под заказ",
+    home_sol_pipe_title: "Инспекция трубопроводов",
+    home_sol_pipe_desc: "Обнаружение утечек, коррозии и структурных аномалий. Данные с дрона — напрямую в ERP. Снижение затрат на инспекцию до 70%.",
+    home_sol_pipe_tag1: "Детектор метана",
+    home_sol_pipe_tag2: "Edge AI",
+    home_sol_pipe_tag3: "BVLOS полёты",
+    home_sol_pipe_link: "Подробнее",
+    home_sol_grid_badge: "Под заказ",
+    home_sol_grid_title: "Инспекция подстанций",
+    home_sol_grid_desc: "Автономный тепловизионный осмотр энергооборудования. Предиктивное обслуживание вместо реактивного ремонта. Работа в зонах ЭМИ.",
+    home_sol_grid_tag1: "Радиометрика",
+    home_sol_grid_tag2: "Защита от ЭМИ",
+    home_sol_grid_tag3: "Повторяемые маршруты",
+    home_sol_grid_link: "Подробнее",
+    home_sol_brd_badge: "Под заказ",
+    home_sol_brd_title: "Охрана границ",
+    home_sol_brd_desc: "Автономное патрулирование периметра 24/7. ИИ-классификация целей, трекинг в сложном рельефе, военное шифрование, интеграция с РЛС.",
+    home_sol_brd_tag1: "Тепловизор 24/7",
+    home_sol_brd_tag2: "ИИ-распознавание",
+    home_sol_brd_tag3: "До 8 ч. полёта",
+    home_sol_brd_link: "Подробнее",
+    home_par_label: "Партнёрам",
+    home_par_title: 'РАБОТАЕМ <span class="text-blue-600">С ПАРТНЁРАМИ</span>',
+    home_par_desc: "У вас есть доступ к клиентам или контрактам — у нас есть экспертиза. Три формата сотрудничества.",
+    home_par1_title: "Реферальный партнёр",
+    home_par1_desc: "Вы находите клиента или передаёте лид — мы берём всё остальное: проектирование, поставку, внедрение и поддержку.",
+    home_par1_foot: "Вы фокусируетесь на отношениях — мы берём техчасть",
+    home_par2_title: "Субподрядчик",
+    home_par2_desc: "У вас есть действующий контракт с дрон-компонентом? Мы полностью закрываем эту часть. Вы остаётесь генеральным подрядчиком.",
+    home_par2_foot: "Расширьте свои возможности без найма",
+    home_par3_title: "Совместная продажа",
+    home_par3_desc: "Вы открываете двери, мы предоставляем техническое решение и ROI-расчёт. Совместный питч — совместный доход.",
+    home_par3_foot: "Вместе закрываем более крупные сделки",
+    home_proc_label: "Процесс",
+    home_proc_title: 'КАК МЫ <span class="text-blue-600">РАБОТАЕМ</span>',
+    home_proc_desc: "Шесть шагов от постановки задачи до работающей системы у клиента.",
+    home_proc_promise_label: "Наше обещание",
+    home_proc_promise_text: "Решение и расчёт ROI — в течение 48 часов после вашего запроса. Бесплатно.",
+    home_proc1_title: "Анализ задачи",
+    home_proc1_desc: "Изучаем проблему, определяем требования, рассчитываем экономику внедрения.",
+    home_proc2_title: "Проектирование решения",
+    home_proc2_desc: "Подбираем тип и количество дронов, сенсоры, архитектуру ПО.",
+    home_proc3_title: "Поставка и кастомизация",
+    home_proc3_desc: "Закупаем оборудование глобально, дорабатываем, организуем логистику.",
+    home_proc4_title: "Разработка ПО",
+    home_proc4_desc: "Дашборды, ИИ-модели, пайплайн данных и ERP-интеграции.",
+    home_proc5_title: "Внедрение и запуск",
+    home_proc5_desc: "Развёртывание на объекте, тестовые полёты, верификация ИИ-моделей.",
+    home_proc6_title: "Обучение и поддержка",
+    home_proc6_desc: "Обучаем команду клиента, передаём документацию и техподдержку.",
+    home_cta_label: "Контакт",
+    home_cta_title: 'ГОТОВЫ К<br /><span class="text-blue-500 italic">СОТРУДНИЧЕСТВУ?</span>',
+    home_cta_desc: "Опишите вашу задачу — мы подготовим техническое решение и расчёт за 48 часов. Бесплатно.",
+    home_cta_btn_email: "Написать нам",
+    home_cta_btn_partner: "Стать партнёром",
+    home_cta_site_lbl: "Сайт",
+    home_cta_site_val: "flycontrol.com",
+    home_cta_email_lbl: "Email",
+    home_cta_email_val: "info@flycontrol.com",
+    home_cta_wa_lbl: "WhatsApp",
+    home_cta_wa_val: "По запросу",
+    home_cta_geo_lbl: "География",
+    home_cta_geo_val: "Казахстан + Глобально",
   },
-
   kz: {
-    // Navbar
+    // Navbar (unchanged)
     nav_solutions: "Шешімдер",
     nav_view_all: "Барлық шешімдер →",
     nav_pipeline: "Құбыр инспекциясы",
@@ -945,14 +1110,14 @@ export const translations = {
     nav_about: "Компания туралы",
     nav_news: "Жаңалықтар",
     nav_contact: "БАЙЛАНЫСУ",
-    // Hero
+    // Hero (only homepage updated)
     hero_headline: '<span class="text-blue-500">ДРОНДАР</span> МЕН <span class="text-blue-500">ЖАСАНДЫ ИНТЕЛЛЕКТТІ</span> БІРІКТІРЕ ОТЫРЫП, СІЗДІҢ МІНДЕТТЕРІҢІЗГЕ АРНАЛҒАН ШЕШІМДЕР ЖАСАЙМЫЗ',
     hero_subtitle: "Өнеркәсіп, табиғатты қорғау және ұлттық қауіпсіздік үшін кешенді шешімдер — жаңа буын БҰҰК технологиясы мен мақсатты жасанды интеллект негізінде.",
     hero_get_started: "БАСТАЙЫҚ",
     hero_watch_demo: "ДЕМО КӨРУ",
     hero_telemetry: "Нақты уақыт телеметриясы",
     hero_uav_online: "БҰҰК жүйесі іске қосылды",
-    // Industries
+    // Industries (unchanged)
     ind_label: "Біз жұмыс жасайтын салалар",
     ind_title: "Мүмкіндіктерді кеңейтеміз",
     ind_enterprise_title: "МҰНАЙ-ГАЗ ЖӘНЕ ЭНЕРГЕТИКА КОРПОРАТИВТІК ШЕШІМДЕР",
@@ -962,7 +1127,7 @@ export const translations = {
     ind_security_title: "ҚАУІПСІЗДІК",
     ind_security_desc: "Адамдарды және көліктерді бақылаңыз, зиянкестер мен контрабандашыларды анықтаңыз, мемлекеттік нөмірлерді танып, периметрді толық бақылауда ұстаңыз.",
     ind_view_solutions: "ШЕШІМДЕРДІ ҚАРАУ",
-    // Expertise
+    // Expertise (unchanged)
     exp_label: "Біздің мамандығымыз",
     exp_title: "Біз не жасаймыз",
     exp_card1_title: "ЖИ АНЫҚТАУ ЖӘНЕ БОЛЖАУ МОДЕЛЬДЕРІ",
@@ -976,7 +1141,7 @@ export const translations = {
     exp_card4_desc: "Дрон деректері автоматты түрде ERP жүйеңізге түседі — қолмен экспорттаусыз және артық қиындықтарсыз.",
     exp_card5_title: "КОМАНДАЛЫҚ ОРТАЛЫҚ ЖӘНЕ IoT",
     exp_card5_desc: "Бірыңғай командалық орталық. Барлық дрондарыңыз, IoT-датчиктеріңіз және бейнеағындарыңыз — бір платформадан басқарылады.",
-    // Process
+    // Process (unchanged)
     proc_label: "Жұмыс тәсілі",
     proc_title: "ҚАЛАЙ ЖҰМЫС ЖАСАЙМЫЗ",
     proc_step1_title: "МІНДЕТТІ АНЫҚТАЙМЫЗ",
@@ -987,16 +1152,16 @@ export const translations = {
     proc_step3_desc: "Флот мөлшерін анықтаймыз, ұшу маршруттарын қалыптастырамыз және операциялық үдерісті нөлден жобалаймыз.",
     proc_step4_title: "ЖҮЙЕНІ ЖАСАЙМЫЗ",
     proc_step4_desc: "Сыналған, құжатталған және жұмысқа дайын толық кешенді шешімді тапсырамыз.",
-    // CTA
+    // CTA (unchanged)
     cta_title: "СІЗДІҢ МІНДЕТТЕРІҢІЗ ҮШІН ДАЙЫН ШЕШІМДЕР",
     cta_desc: "Маңызды салаларда жедел іске қосу үшін біздің алдын ала конфигурацияланған шешімдерімізді пайдаланыңыз.",
     cta_btn: "КАТАЛОГТЫ ЗЕРТТЕУ",
-    // News
+    // News (unchanged)
     news_label: "Жаңалықтар мен талдамалар",
     news_title: "СОҢҒЫ МАТЕРИАЛДАР",
     news_view_all: "Барлық мақалалар",
     news_learn_more: "ТОЛЫҒЫРАҚ",
-    // Contact
+    // Contact (unchanged)
     contact_title: "Демонстрация сұрату",
     contact_desc: "Қол жеткізгіңіз келетін нәтижені сипаттаңыз — біз технологиямыздың оған қалай жететінін нақты көрсетеміз.",
     contact_name_label: "Аты-жөні",
@@ -1008,7 +1173,7 @@ export const translations = {
     contact_msg_label: "Хабарлама",
     contact_msg_ph: "Сізге қалай көмектесе аламыз?",
     contact_submit: "ӨТІНІМ ЖІБЕРУ",
-    // Footer
+    // Footer (unchanged)
     footer_desc: "Корпоративтік дрон шешімдері мен ЖИ негізіндегі аэроаналитиканың жетекші жеткізушісі. Дәлдік пен автоматтандыру арқылы салаларды өзгертеміз.",
     footer_industries: "Салалар",
     footer_solutions: "Шешімдер",
@@ -1023,9 +1188,9 @@ export const translations = {
     footer_privacy: "Құпиялылық саясаты",
     footer_terms: "Пайдалану шарттары",
     footer_cookies: "Cookie параметрлері",
-    footer_copy: "© 2026 KAZDRONE SOLUTIONS. Барлық құқықтар қорғалған.",
-    // ContactPopup
-    popup_brand: "KAZDRONE SOLUTIONS",
+    footer_copy: "© 2026 FLYCONTROL SOLUTIONS. Барлық құқықтар қорғалған.",
+    // ContactPopup (unchanged)
+    popup_brand: "FLYCONTROL SOLUTIONS",
     popup_title: "Демонстрация сұрату",
     popup_desc: "Міндетіңіз туралы айтыңыз — технологиямыздың қалай көмектесетінін тікелей, жекелендірілген демонстрациямен нақты көрсетеміз.",
     popup_fullname: "Аты-жөні",
@@ -1045,9 +1210,8 @@ export const translations = {
     popup_message: "Хабарлама",
     popup_msg_ph: "Пайдалану жағдайыңыз және жеткізгіңіз келетін нәтиже туралы айтыңыз…",
     popup_submit: "Өтінім жіберу",
-
-    // ── About Page ──
-    about_badge: "KAZDRONE ТУРАЛЫ",
+    // ── About Page ── (unchanged)
+    about_badge: "FLYCONTROL ТУРАЛЫ",
     about_headline: "Күрделі міндеттер үшін",
     about_headline_accent: "жасалған.",
     about_desc: "Біз өнеркәсіптік инспекция, қоршаған ортаны қорғау және ұлттық қауіпсіздік үшін автономды БҰҰК және ЖИ жүйелерін жасаймыз — саланы ішінен білетін операторлар, инженерлер мен ЖИ зерттеушілерінің командасы.",
@@ -1074,8 +1238,7 @@ export const translations = {
     about_deploy_title: "Іске қосуға дайынсыз ба?",
     about_deploy_desc: "Міндетіңіз туралы айтыңыз — нақты талаптарыңызға сай жүйені конфигурациялаймыз.",
     about_deploy_btn: "Әңгімені бастау",
-
-    // ── Solutions Page (SolutionBlocks) ──
+    // ── Solutions Page (SolutionBlocks) ── (unchanged)
     sol_label: "Біздің портфолио",
     sol_title: '<span class="text-blue-600">Бағытты</span> таңдаңыз',
     sol_wf_label: "Табиғатты қорғау",
@@ -1090,8 +1253,7 @@ export const translations = {
     sol_grid_label: "Электр желісі инфрақұрылымы",
     sol_grid_title: 'ЖИ негізіндегі <span class="text-blue-500">қосалқы станция инспекциясы</span>',
     sol_grid_desc: "Автономды дрон жылу және визуалды инспекцияларымен желі сенімділігін жаңа деңгейге шығарыңыз. Жиі және қауіпсіз мониторинг арқылы электрмен үздіксіз жабдықтауды қамтамасыз етіңіз.",
-
-    // ── Pipeline Solution ──
+    // ── Pipeline Solution ── (unchanged)
     pipe_badge: "Өнеркәсіптік шешімдер",
     pipe_headline: 'ЖИ негізіндегі <br /><span class="text-blue-500">құбыр инспекциясы</span>',
     pipe_desc: "Ағып кетулерді, тотығуды және құрылымдық аномалияларды <strong class=\"text-white font-bold\">теңдессіз дәлдікпен</strong> анықтайтын жүйе жасаңыз — қауіпсіз, автономды және кез келген ауқымда.<br /><br />Дрондардан деректер тікелей ERP-ке түсіп, тірі бақылау тақтасында бейнеленеді.",
@@ -1123,8 +1285,7 @@ export const translations = {
     pipe_cta_title: 'Инфрақұрылымыңызды <br /><span class="text-blue-500">бүгін оңтайландырыңыз</span>',
     pipe_cta_desc: "Құбырларды қауіпсіз және тиімді басқару үшін ЖИ мен дрондарды пайдаланатын салалық көшбасшылармен қатарға қосылыңыз.",
     pipe_cta_btn: "Бізбен байланысу",
-
-    // ── Wildfire Solution ──
+    // ── Wildfire Solution ── (unchanged)
     wf_badge: "Табиғатты қорғау",
     wf_headline: 'Автономды <br /><span class="text-orange-500">орман өрті мониторингі</span>',
     wf_desc: "Тұтану нүктелерін анықтаңыз, өрт майдандарын нақты уақытта бақылаңыз және ЖИ аэробақылаумен төтенше жауапты үйлестіріңіз. Табиғатты оттан қорғаңыз.",
@@ -1133,7 +1294,7 @@ export const translations = {
     wf_challenge1: "Бүгінгі әдістер орман өрттерінің таралуын тоқтату үшін жеткілікті тиімді емес. Спутниктік мониторинг және басқа инструменттер тым қымбат және әрдайым қол жетімді емес.",
     wf_challenge2: "Инспекциялар арасындағы уақыт алшақтығы өте үлкен. Бір аймақты үздіксіз бақылау мүмкін емес.",
     wf_challenge3: "Ақпараттың жетіспеушілігі ТЖ басшыларының ресурстарды дұрыс бөлуіне кедергі болады.",
-    wf_adv_title: "Kazdrone артықшылықтары",
+    wf_adv_title: "Flycontrol артықшылықтары",
     wf_adv1: "Нақты уақытта аэродеректер алыңыз — өрт сөндірушілер хаос жағдайында да негізделген стратегиялық шешімдер қабылдай алсын.",
     wf_adv2: "Жоғары деңгейдегі ахуалдық хабардарлықпен жеке құрамның қауіпсіздігін арттырыңыз: жасырын қауіптермен кездесу тәуекелін азайтыңыз.",
     wf_adv3: "Ресурстарды оңтайлы бөлу және өрт сөндіру шараларының нәтижелерін нақты уақытта бағалау үшін маңызды деректер жинаңыз.",
@@ -1163,8 +1324,7 @@ export const translations = {
     wf_cta_title: 'Өртке қарсы қорғаныс жүйесін <br /><span class="text-blue-500">жаңартыңыз</span>',
     wf_cta_desc: "Аймағыңызда автономды орман өрті мониторингі шешімдерін орналастыру үшін қоғамдық қауіпсіздік сарапшыларымызбен байланысыңыз. Озық технологиялармен аумағыңызды қорғаңыз.",
     wf_cta_btn: "БІЗБЕН БАЙЛАНЫСУ",
-
-    // ── Border Solution ──
+    // ── Border Solution ── (unchanged)
     brd_badge: "Ұлттық қауіпсіздік",
     brd_headline: 'Автономды <br /><span class="text-orange-500">мемлекеттік шекара қорғанысы</span>',
     brd_desc: "ЖИ аэропатрулімен ұзын периметрлерді қамтамасыз етіңіз. Заңсыз кесіп өтулерді анықтаңыз, қиын жерлердегі қозғалысты бақылаңыз және бақылаудағы олқылықтарсыз жедел ден қойыңыз.",
@@ -1173,7 +1333,7 @@ export const translations = {
     brd_challenge1: "Ұзын периметрлер мен күрделі жер бедері наряд-патрульдік бақылауды баяу, қауіпті және ресурс қажырлы етеді.",
     brd_challenge2: "Түнгі уақыт пен нашар ауа райындағы шектеулі көрінеу «өлі аймақтар» туғызады — бұзушылар оларды жүйелі пайдаланады.",
     brd_challenge3: "Стационарлы сенсорлық желілердің қозғалысы оңай болжалады, қымбатқа түседі және шалғай шекара аймақтарында олқылықтар қалдырады.",
-    brd_adv_title: "Kazdrone артықшылықтары",
+    brd_adv_title: "Flycontrol артықшылықтары",
     brd_adv1: "Жоғары класты тепловизиялық және күндізгі камералармен 24/7 үздіксіз автономды бақылау — ешбір қозғалыс байқаусыз қалмайды.",
     brd_adv2: "ЖИ қауіп жіктеу жалған дабылдарды азайтады, жеке құрам нақты қауіпсіздік қауіптеріне шоғырлана алады.",
     brd_adv3: "Ұзақ дрондар бір миссия ішінде жүздеген километрді жауып, серпімді қорғаныс периметрін қалыптастырады.",
@@ -1205,8 +1365,7 @@ export const translations = {
     brd_cta_title: 'Мемлекеттік шекараны <br /><span class="text-blue-500">сенімді қорғаңыз</span>',
     brd_cta_desc: "Қауіпсіздік инфрақұрылымы сарапшыларымызбен кеңесіп, автономды шекара мониторингі шешімдерін орналастырыңыз. Озық аэробарлаумен егемендікті қорғаңыз.",
     brd_cta_btn: "САРАПШЫМЕН БАЙЛАНЫСУ",
-
-    // ── Grid Solution ──
+    // ── Grid Solution ── (unchanged)
     grid_badge: "Электр желісі инфрақұрылымы шешімдері",
     grid_headline: 'ЖИ негізіндегі <br /><span class="text-blue-500">қосалқы станция инспекциясы</span>',
     grid_desc: "Автономды дрон жылу және визуалды инспекцияларымен желі сенімділігін жаңа деңгейге шығарыңыз. Жиі және қауіпсіз мониторинг арқылы электрмен үздіксіз жабдықтауды қамтамасыз етіңіз.",
@@ -1238,16 +1397,14 @@ export const translations = {
     grid_cta_title: 'Электр желісін басқаруды <br /><span class="text-blue-500">жаңартыңыз</span>',
     grid_cta_desc: "Қосалқы станцияларды тексерудің ақылды, қауіпсіз және тиімді протоколдарын бүгін енгізіңіз.",
     grid_cta_btn: "Энергетикалық шешімдерді зерттеу",
-
-    // Dashboard Shared
+    // Dashboard Shared (unchanged)
     dash_sidebar_solutions: "Шешімдер",
     dash_sidebar_dashboard: "Бақылау тақтасы",
     dash_sidebar_fleet: "Флот",
     dash_sidebar_analytics: "Аналитика",
     dash_sidebar_alerts: "Хабарландырулар",
     dash_sidebar_settings: "Параметрлер",
-
-    // Pipeline Dashboard
+    // Pipeline Dashboard (unchanged)
     pipe_dash_title: "Бақылау тақтасымен толық интеграция",
     pipe_dash_desc: "Бүкіл құбыр желісін бірыңғай интерфейсте бақылаңыз. Кез келген құрылғыдан тікелей трансляцияларға, деректер тарихына және техникалық қызмет көрсету ескертулеріне қол жеткізіңіз. Төменде БҚ демонстрациясын көре аласыз.",
     pipe_dash_new_mission: "Жаңа миссия",
@@ -1271,8 +1428,7 @@ export const translations = {
     pipe_dash_linked: "Байланысты",
     pipe_dash_drone_alt: "Дрон биікт.",
     pipe_dash_wind_spd: "Жел жылд.",
-
-    // Wildfire Dashboard
+    // Wildfire Dashboard (unchanged)
     wf_dash_title: "Орман өрттерін басқару тақтасы",
     wf_dash_desc: "Өрт деректерін нақты уақытта орталықтандырыңыз. Тұтану ескертулерін бақылаңыз, жел векторларын қадағалаңыз және әуе мен жердегі активтерді бірыңғай интерфейстен үйлестіріңіз.",
     wf_dash_ops: "Өрт операциялары",
@@ -1301,8 +1457,7 @@ export const translations = {
     wf_dash_cmd_sync: "Командалық синхрондау",
     wf_dash_cur_wind: "Қазіргі жел",
     wf_dash_drone_range: "Дрон қашықтығы",
-
-    // Border Dashboard
+    // Border Dashboard (unchanged)
     brd_dash_title: "Шекараны тактикалық қадағалау",
     brd_dash_desc: "Ұлттық ауқымдағы автономды қауіпсіздік жүйесін іске қосыңыз. Аймақтық бақылау ағындарын біріктіріңіз, жылу белгілерін бақылаңыз және бірыңғай тактикалық интерфейстен ұстауды үйлестіріңіз.",
     brd_dash_cmd: "Шекара командалығы",
@@ -1353,8 +1508,7 @@ export const translations = {
     brd_feat_intercept_d: "Байланыс анықталған кезде, жердегі бөлімшелер орналасқан жерді, қозғалыс бағытын және әуеден тікелей бейнені алады. Ұстау топтары дайын болып келеді.",
     brd_feat_logging_t: "Автоматты түрде журнал жүргізу",
     brd_feat_logging_d: "Әрбір анықтау автоматты түрде уақытымен, орнымен және жіктелуімен жазылады — заңды процедуралар мен ұзақ мерзімді үлгілерді талдау үшін сенімді жазба жасалады.",
-
-    // Grid Dashboard
+    // Grid Dashboard (unchanged)
     grid_dash_title: "Энергетикалық нысандарды кешенді басқару",
     grid_dash_desc: "Қосалқы станцияның күйін жылу карталары және компоненттердің нақты уақыттағы мәртебесі арқылы бақылаңыз. Барлық инспекциялық есептер мен тарихи деректерді бір платформада жинақтаңыз.",
     grid_dash_long_desc: "Қосалқы станциялар жоғары вольтты жабдықтарды — трансформаторларды, ажыратқыштарды, оқшаулағыштарды, шиналарды — қол жеткізу шектеулі және істен шығудың салдары ауыр орталарда шоғырландырады. Бұрын бірнеше күнге созылған қолмен тексеру циклдері қазір бір ұшуда орындалады. Бағдарламалық жасақтама қосу-өшіру құрылғылары мен трансформаторлардың жылу белгілерін түсіреді, бұл байланыстардың қызып кетуін және оқшаулаудың бұзылуын олар асқынбай тұрып анықтайды. Ультракүлгін датчиктер ішінара разрядтарды және корондық белсенділікті анықтайды — бұл стандартты камераларға көрінбейтін, бірақ істен шығудан бірнеше апта бұрын болжауға болатын ақаулар. Торлы тіректерді, траверстерді және периметрлік қоршауларды құрылымдық тексеру автоматты түрде тіркеледі, ал өзгерістер алдыңғы ұшулармен салыстырылады. Жоғары вольтты өткізгіштердің жанындағы өсімдіктердің өсуі жай ғана белгіленіп қоймай, картаға түсіріледі және өлшенеді. Қосалқы станцияның фотосуреттері техникалық қызмет көрсету топтарына жаңартуды жоспарлау және жабдықты орналастыру үшін ескірген сызбаларға сүйенбей-ақ нақты кеңістіктік деректер береді. Аналитика жағынан ЖИ әрбір ұшудан алынған әрбір кескінді өңдейді: жарылған немесе ластанған оқшаулағыштар, тот басқан қысқыштар, жетіспейтін жабдықтар, кабельдік арналардағы судың жиналуы. Есептер әрбір актив пен аймақ бойынша жасалады, ақаулардың күрделілігіне қарай техникалық қызмет көрсету кестесі үшін сараланады. Автономды ұшу маршруттары белгіленген аралықтарда орындалып, болжамды техникалық қызмет көрсетуді және нормативтік сәйкестік құжаттамасын қолдайтын тексеру жазбасын қалыптастырады.",
@@ -1398,8 +1552,101 @@ export const translations = {
     grid_dash_prob12: "ЫҚТИМАЛДЫҚ 12.8%",
     grid_dash_gen_rep: "Техникалық есепті жасау",
     grid_dash_cad_ver: "CAD интерфейсі v2.4.0",
+    // ── Homepage ── (updated for natural Kazakh flow)
+    home_hero_badge: "Дрон және ЖИ шешімдерін интеграциялаушы",
+    home_hero_h1: 'БҰҰК<br /><span class="text-blue-500 italic">ЖӘНЕ ЖИ</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl">сіздің міндетіңізге арналған</span>',
+    home_hero_desc: "Өнеркәсіп, табиғатты қорғау және ұлттық қауіпсіздік үшін ЖИ-аналитикасы бар автономды дрон жүйелерін жобалаймыз, жеткіземіз және іске қосамыз.",
+    home_hero_cta_demo: "Демо сұрату",
+    home_hero_cta_solutions: "Біздің шешімдер",
+    home_cap_label: "Біздің құзыреттеріміз",
+    home_cap_title: 'ҚЫЗМЕТТЕРДІҢ ТОЛЫҚ <span class="text-blue-600">СТЕГІ</span>',
+    home_cap_desc: "Тапсырманы талдаудан бастап қызметкерлерді оқытуға дейін — жобаның бүкіл циклін кілттен-кілтке дайындаймыз.",
+    home_cap1_title: "Талдау және жобалау",
+    home_cap1_desc: "Сіздің нақты мәселеңізді дәл шешімге айналдырамыз: қажетті БҰҰК түрін, санын, сенсорларды, ұшу бағыттарын және бағдарламалық жүйені таңдаймыз.",
+    home_cap2_title: "Таңдау және теңшеу",
+    home_cap2_desc: "Әлемдік нарықтан ең қолайлы платформаны табамыз ($3K–$100K) және камераларды, датчиктерді, бағдарламаны сіздің міндетіңізге бейімдейміз.",
+    home_cap3_title: "Бағдарлама және ЖИ әзірлеу",
+    home_cap3_desc: "Нақты уақыттағы бақылау тақталары, аномалияны автоматты анықтау, ERP-мен интеграция және API арқылы сыртқы жүйелермен байланыс.",
+    home_cap4_title: "Жобаны басқару",
+    home_cap4_desc: "Техникалық тапсырымадан бастап тапсыруға дейін мерзімдерді, бюджетті, команданы және тапсырыс берушімен байланысты толық қамтамасыз етеміз.",
+    home_cap5_title: "Қызметкерлерді іріктеу және оқыту",
+    home_cap5_desc: "Операторлар мен инженерлерді таңдаймыз, сіздің командаңызды жүйені өз бетінше басқаруға толық үйретеміз.",
+    home_cap6_title: "Логистика және жеткізу",
+    home_cap6_desc: "Жабдықты әлемнің кез келген нүктесіне импорт, кеден рәсімдеу, тасымалдау және орнату қызметтерін ұйымдастырамыз.",
+    home_sol_label: "Шешімдер",
+    home_sol_title: 'САЛАЛЫҚ <span class="text-blue-600">ЖҮЙЕЛЕР</span>',
+    home_sol_desc: "Төрт негізгі бағытқа арналған дайын және тапсырыс бойынша шешімдер.",
+    home_sol_wf_badge: "Дайын шешім",
+    home_sol_wf_title: "Орман өрттерін мониторингілеу",
+    home_sol_wf_desc: "Тепловизорлар мен ЖИ от анықтау жүйесі бар автономды БҰҰК. Өрттің алғашқы белгілерін бірнеше минутта анықтау, майданды нақты уақытта бақылау және жедел әрекетті үйлестіру.",
+    home_sol_wf_tag1: "Минуттар ішінде анықтау",
+    home_sol_wf_tag2: "BVLOS + Mesh",
+    home_sol_wf_tag3: "Edge AI",
+    home_sol_wf_link: "Толығырақ",
+    home_sol_pipe_badge: "Тапсырыс бойынша",
+    home_sol_pipe_title: "Құбыр инспекциясы",
+    home_sol_pipe_desc: "Ағып кету, тот басу және құрылымдық ақауларды анықтау. Дрон деректері тікелей ERP-ке өтеді. Инспекция шығынын 70%-ке дейін азайту.",
+    home_sol_pipe_tag1: "Метан детекторы",
+    home_sol_pipe_tag2: "Edge AI",
+    home_sol_pipe_tag3: "BVLOS ұшулар",
+    home_sol_pipe_link: "Толығырақ",
+    home_sol_grid_badge: "Тапсырыс бойынша",
+    home_sol_grid_title: "Қосалқы станция инспекциясы",
+    home_sol_grid_desc: "Энергия жабдықтарын автономды жылулық тексеру. Реактивті жөндеудің орнына болжамды техникалық қызмет көрсету. ЭМК аймақтарында қауіпсіз жұмыс.",
+    home_sol_grid_tag1: "Радиометрика",
+    home_sol_grid_tag2: "ЭМК қорғаныс",
+    home_sol_grid_tag3: "Қайталанатын маршруттар",
+    home_sol_grid_link: "Толығырақ",
+    home_sol_brd_badge: "Тапсырыс бойынша",
+    home_sol_brd_title: "Шекара қорғанысы",
+    home_sol_brd_desc: "24/7 автономды периметр патрулі. ЖИ нысандарды жіктеу, күрделі жер бедерінде бақылау, әскери деңгейдегі шифрлау және радармен интеграция.",
+    home_sol_brd_tag1: "Тепловизор 24/7",
+    home_sol_brd_tag2: "ЖИ тану",
+    home_sol_brd_tag3: "8 сағатқа дейін ұшу",
+    home_sol_brd_link: "Толығырақ",
+    home_par_label: "Серіктестерге",
+    home_par_title: '<span class="text-blue-600">СЕРІКТЕСТЕРМЕН</span> ЖҰМЫС ЖАСАЙМЫЗ',
+    home_par_desc: "Сізде клиенттер немесе келісімшарттар бар — бізде терең техникалық тәжірибе бар. Үш ыңғайлы серіктестік форматы.",
+    home_par1_title: "Реферал серіктес",
+    home_par1_desc: "Сіз клиент табасыз немесе лид жібересіз — біз жобалауды, жеткізуді, іске қосуды және қолдауды толық қамтамасыз етеміз.",
+    home_par1_foot: "Сіз қарым-қатынасқа шоғырланасыз — біз техникалық бөлігін аламыз",
+    home_par2_title: "Қосалқы мердігер",
+    home_par2_desc: "Дрон компоненті бар келісімшартыңыз бар ма? Біз сол бөлікті толығымен өзімізге аламыз, сіз бас мердігер болып қаласыз.",
+    home_par2_foot: "Жалдаусыз мүмкіндіктеріңізді кеңейтіңіз",
+    home_par3_title: "Бірлескен сату",
+    home_par3_desc: "Сіз есік ашасыз, біз техникалық шешім мен ROI есебін дайындаймыз. Бірге ұсыныс жасап, табысты бөлісеміз.",
+    home_par3_foot: "Бірге ірі мәмілелерді жабамыз",
+    home_proc_label: "Үдеріс",
+    home_proc_title: 'ҚАЛАЙ <span class="text-blue-600">ЖҰМЫС ЖАСАЙМЫЗ</span>',
+    home_proc_desc: "Тапсырманы түсінуден бастап сіздің алаңыңызда толық жұмыс істейтін жүйеге дейін алты нақты қадам.",
+    home_proc_promise_label: "Біздің уәдеміз",
+    home_proc_promise_text: "Шешім ұсынысы және ROI есебі — өтінішіңізден кейін 48 сағат ішінде. Тегін.",
+    home_proc1_title: "Тапсырманы талдау",
+    home_proc1_desc: "Мәселеңізді зерттеп, талаптарды анықтаймыз және іске асырудың нақты экономикасын есептейміз.",
+    home_proc2_title: "Шешімді жобалау",
+    home_proc2_desc: "Дрон түрін, санын, сенсорларды және бағдарлама архитектурасын таңдаймыз.",
+    home_proc3_title: "Жеткізу және теңшеу",
+    home_proc3_desc: "Жабдықты әлемдік нарықтан сатып алып, сіздің қажеттіліктеріңізге бейімдейміз және логистиканы толық ұйымдастырамыз.",
+    home_proc4_title: "Бағдарлама әзірлеу",
+    home_proc4_desc: "Бақылау тақталары, ЖИ модельдері, деректер тізбегі және ERP интеграциялары.",
+    home_proc5_title: "Іске қосу және орналастыру",
+    home_proc5_desc: "Объектіде монтаждау, сынақ ұшулары және ЖИ модельдерін толық тексеру.",
+    home_proc6_title: "Оқыту және қолдау",
+    home_proc6_desc: "Сіздің командаңызды оқытамыз, толық құжаттама береміз және тұрақты техникалық қолдау көрсетеміз.",
+    home_cta_label: "Байланыс",
+    home_cta_title: 'ЫНТЫМАҚТАСТЫҚҚА<br /><span class="text-blue-500 italic">ДАЙЫНСЫЗ БА?</span>',
+    home_cta_desc: "Міндетіңізді сипаттаңыз — 48 сағат ішінде дәл техникалық шешім және ROI есебін дайындаймыз. Тегін.",
+    home_cta_btn_email: "Бізге жазыңыз",
+    home_cta_btn_partner: "Серіктес болу",
+    home_cta_site_lbl: "Сайт",
+    home_cta_site_val: "flycontrol.com",
+    home_cta_email_lbl: "Email",
+    home_cta_email_val: "info@flycontrol.com",
+    home_cta_wa_lbl: "WhatsApp",
+    home_cta_wa_val: "Сұраныс бойынша",
+    home_cta_geo_lbl: "География",
+    home_cta_geo_val: "Қазақстан + Жаһандық",
   },
 } as const;
-
 export type Lang = keyof typeof translations;
 export type TranslationKey = keyof typeof translations.en;

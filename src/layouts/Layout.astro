@@ -10,7 +10,7 @@ import ContactPopup from "../components/ContactPopup.astro";
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="generator" content={Astro.generator} />
-        <title>KAZDRONE SOLUTIONS</title>
+        <title>FLYCONTROL SOLUTIONS</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -29,7 +29,7 @@ import ContactPopup from "../components/ContactPopup.astro";
                 --text-primary: #171717;
             }
             body {
-                font-family: "Geist", "Inter", sans-serif;
+                font-family: "Inter", sans-serif;
             }
             h1,
             h2,
@@ -37,7 +37,7 @@ import ContactPopup from "../components/ContactPopup.astro";
             h4,
             h5,
             h6 {
-                font-family: "Plus Jakarta Sans", sans-serif;
+                font-family: "Inter", sans-serif;
             }
             @keyframes beam-spin {
                 from {
@@ -88,6 +88,9 @@ import ContactPopup from "../components/ContactPopup.astro";
                         if (key in t)
                             (el as HTMLInputElement).placeholder = t[key];
                     });
+                // Update html lang attribute
+                document.documentElement.lang = lang === "kz" ? "kk" : lang;
+
                 // Update lang button active states
                 document.querySelectorAll("[data-lang]").forEach((btn) => {
                     const btnLang = btn.getAttribute("data-lang");
