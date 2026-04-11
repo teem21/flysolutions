@@ -455,7 +455,7 @@ export const translations = {
     grid_dash_cad_ver: "CAD View Interface v2.4.0",
     // ── Homepage ──
     home_hero_badge: "Drone & AI Solutions Integrator",
-    home_hero_h1: 'UAVs<br /><span class="text-blue-500 italic">AND AI</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl">tailored to your mission</span>',
+    home_hero_h1: 'UAVs<br /><span class="text-blue-500 italic">AND AI</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl" style="letter-spacing:0;word-spacing:0.3em">tailored to your mission</span>',
     home_hero_desc: "We design, supply, and deploy autonomous drone systems with intelligent AI analytics — built for industry, environmental protection, and national security.",
     home_hero_cta_demo: "Request a Demo",
     home_hero_cta_solutions: "Our Solutions",
@@ -1720,7 +1720,7 @@ export const translations = {
     grid_dash_cad_ver: "CAD интерфейсі v2.4.0",
     // ── Homepage ── (updated for natural Kazakh flow)
     home_hero_badge: "Дрон және ЖИ шешімдерін интеграциялаушы",
-    home_hero_h1: 'БҰҰК<br /><span class="text-blue-500 italic">ЖӘНЕ ЖИ</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl">сіздің міндетіңізге арналған</span>',
+    home_hero_h1: 'БҰҰК<br /><span class="text-blue-500 italic">ЖӘНЕ ЖИ</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl" style="letter-spacing:0;word-spacing:0.3em">сіздің міндетіңізге арналған</span>',
     home_hero_desc: "Өнеркәсіп, табиғатты қорғау және ұлттық қауіпсіздік үшін ЖИ-аналитикасы бар автономды дрон жүйелерін жобалаймыз, жеткіземіз және іске қосамыз.",
     home_hero_cta_demo: "Демо сұрату",
     home_hero_cta_solutions: "Біздің шешімдер",
