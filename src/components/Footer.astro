@@ -6,7 +6,7 @@ import { Twitter, Instagram, Linkedin } from "lucide-astro";
     class="bg-slate-950 text-slate-400 py-20 px-4 md:px-8 border-t border-slate-900"
 >
     <div class="max-w-screen-2xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-16 mb-12">
             <div class="col-span-1 md:col-span-1">
                 <a href="/" class="flex items-center gap-2 mb-8">
                     <span class="text-2xl font-bold tracking-tighter text-white"
@@ -77,6 +77,13 @@ import { Twitter, Instagram, Linkedin } from "lucide-astro";
                             data-i18n="footer_electricity">Электроэнергетика</a
                         >
                     </li>
+                    <li>
+                        <a
+                            href="/construction-solution"
+                            class="hover:text-blue-400 transition-colors"
+                            data-i18n="nav_construction">Строительство</a
+                        >
+                    </li>
                 </ul>
             </div>
 
@@ -119,30 +126,17 @@ import { Twitter, Instagram, Linkedin } from "lucide-astro";
                 </ul>
             </div>
 
-            <div
-                class="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] uppercase tracking-widest font-bold"
-            >
-                <p data-i18n="footer_copy">
-                    © 2026 FLYCONTROL SOLUTIONS. Все права защищены.
-                </p>
-                <div class="flex gap-8">
-                    <a
-                        href="#"
-                        class="hover:text-white transition-colors"
-                        data-i18n="footer_privacy"
-                        >Политика конфиденциальности</a
-                    >
-                    <a
-                        href="#"
-                        class="hover:text-white transition-colors"
-                        data-i18n="footer_terms">Условия обслуживания</a
-                    >
-                    <a
-                        href="#"
-                        class="hover:text-white transition-colors"
-                        data-i18n="footer_cookies">Настройки файлов cookie</a
-                    >
-                </div>
+        </div>
+
+        <!-- Copyright bar spanning full width -->
+        <div class="pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest font-bold">
+            <p data-i18n="footer_copy">
+                © 2026 FLYCONTROL SOLUTIONS. Все права защищены.
+            </p>
+            <div class="flex flex-wrap gap-6 justify-center md:justify-end">
+                <a href="#" class="hover:text-white transition-colors" data-i18n="footer_privacy">Политика конфиденциальности</a>
+                <a href="#" class="hover:text-white transition-colors" data-i18n="footer_terms">Условия обслуживания</a>
+                <a href="#" class="hover:text-white transition-colors" data-i18n="footer_cookies">Настройки файлов cookie</a>
             </div>
         </div>
     </div>

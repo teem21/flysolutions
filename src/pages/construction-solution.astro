@@ -1,0 +1,391 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+import Contact from "../components/Contact.astro";
+import { Calendar, CheckCircle, ArrowRight } from "lucide-astro";
+---
+
+<Layout title="Construction Monitoring | FLYCONTROL Solutions">
+    <Navbar />
+    <main class="bg-white">
+
+        <!-- HERO -->
+        <section class="bg-white py-4 px-4 md:px-8">
+            <div class="max-w-screen-2xl mx-auto relative rounded-[24px] overflow-hidden shadow-2xl bg-slate-900 pt-12 pb-10 md:pt-20 md:pb-16 px-8 md:px-20">
+                <div class="absolute inset-0 z-0">
+                    <img src="/assets/construction_hero.jpg" alt="Construction Monitoring" class="w-full h-full object-cover opacity-60" onerror="this.style.display='none'" />
+                    <div class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/70 to-transparent"></div>
+                    <div class="absolute inset-0 bg-blue-950/10"></div>
+                </div>
+                <div class="relative z-10 max-w-3xl">
+                    <span class="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 text-blue-400 text-sm font-bold tracking-wider uppercase mb-8 border border-blue-500/20" data-i18n="const_badge">
+                        Industry Solution
+                    </span>
+                    <h1 class="text-4xl md:text-7xl font-bold tracking-tight text-white mb-8 leading-[1.05] uppercase" data-i18n="const_headline">
+                        Drone Solutions for Construction
+                    </h1>
+                    <p class="text-lg md:text-xl text-slate-300 mb-12 leading-relaxed max-w-2xl" data-i18n="const_desc">
+                        Aerial monitoring, 3D mapping, and progress control for every type of construction project — from building sites to dams and railways.
+                    </p>
+                    <button data-popup="contact" class="inline-flex items-center gap-3 px-10 py-5 bg-blue-600 text-white rounded-full font-bold transition-all hover:bg-blue-700 hover:scale-105 active:scale-95 shadow-lg shadow-blue-500/25">
+                        <span data-i18n="const_btn">REQUEST CONSULTATION</span>
+                        <Calendar size={20} />
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- OVERVIEW STATS -->
+        <section class="py-16 px-4 md:px-8 bg-slate-50">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+                        <div class="text-3xl md:text-4xl font-black text-blue-600 mb-2">7</div>
+                        <div class="text-xs font-bold text-slate-500 uppercase tracking-widest">Object Types</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+                        <div class="text-3xl md:text-4xl font-black text-blue-600 mb-2">40+</div>
+                        <div class="text-xs font-bold text-slate-500 uppercase tracking-widest">Services</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+                        <div class="text-3xl md:text-4xl font-black text-blue-600 mb-2">3D</div>
+                        <div class="text-xs font-bold text-slate-500 uppercase tracking-widest">Mapping</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
+                        <div class="text-3xl md:text-4xl font-black text-blue-600 mb-2">48h</div>
+                        <div class="text-xs font-bold text-slate-500 uppercase tracking-widest">Proposal</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIES -->
+        <section class="py-16 px-4 md:px-8 bg-white">
+            <div class="max-w-screen-2xl mx-auto">
+                <div class="text-center mb-16">
+                    <span class="text-blue-600 font-bold uppercase tracking-[0.2em] text-xs">Направления</span>
+                    <h2 class="text-3xl md:text-5xl font-black text-slate-900 mt-4 uppercase tracking-tight">Объекты и услуги</h2>
+                </div>
+
+                <div class="space-y-6">
+
+                    <!-- Cat 1: Construction Sites -->
+                    <div class="group rounded-3xl border border-slate-200 bg-white hover:border-blue-200 hover:shadow-xl transition-all overflow-hidden">
+                        <div class="p-6 md:p-10 flex flex-col md:flex-row gap-8">
+                            <div class="md:w-80 shrink-0">
+                                <div class="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform">
+                                    <svg class="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" /></svg>
+                                </div>
+                                <span class="inline-block px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-[10px] font-bold uppercase tracking-widest mb-4 border border-blue-100" data-i18n="const_cat1_badge">Residential · Commercial · Industrial</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4" data-i18n="const_cat1_title">Construction Sites</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed" data-i18n="const_cat1_desc">Comprehensive aerial monitoring of construction sites at every stage — from foundation to finishing.</p>
+                            </div>
+                            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat1_s1">Progress monitoring (weekly flyovers)</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat1_s2">Plan vs. actual comparison</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat1_s3">Earthwork and material volume calculations</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat1_s4">Equipment and contractor monitoring</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat1_s5">High-rise structure inspection</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat1_s6">Safety control</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 2: Quarries -->
+                    <div class="group rounded-3xl border border-slate-200 bg-white hover:border-blue-200 hover:shadow-xl transition-all overflow-hidden">
+                        <div class="p-6 md:p-10 flex flex-col md:flex-row gap-8">
+                            <div class="md:w-80 shrink-0">
+                                <div class="w-14 h-14 bg-blue-600/10 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605" /></svg>
+                                </div>
+                                <span class="inline-block px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold uppercase tracking-widest mb-4 border border-slate-200" data-i18n="const_cat2_badge">Sand · Gravel · Coal</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4" data-i18n="const_cat2_title">Quarries</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed" data-i18n="const_cat2_desc">Precision 3D mapping and volumetric analysis of extraction sites for accurate production tracking and operational planning.</p>
+                            </div>
+                            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat2_s1">3D quarry mapping</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat2_s2">Extraction volume calculations</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat2_s3">Slope and stability monitoring</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat2_s4">Equipment and logistics monitoring</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat2_s5">Extraction planning</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat2_s6">Material stockpile control</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 3: Road Construction -->
+                    <div class="group rounded-3xl border border-slate-200 bg-white hover:border-blue-200 hover:shadow-xl transition-all overflow-hidden">
+                        <div class="p-6 md:p-10 flex flex-col md:flex-row gap-8">
+                            <div class="md:w-80 shrink-0">
+                                <div class="w-14 h-14 bg-blue-600/10 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" /></svg>
+                                </div>
+                                <span class="inline-block px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold uppercase tracking-widest mb-4 border border-slate-200" data-i18n="const_cat3_badge">Highways · Interchanges · Bridges</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4" data-i18n="const_cat3_title">Road Construction</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed" data-i18n="const_cat3_desc">Extended corridor surveys, topographic mapping, and quality control for road and bridge infrastructure projects.</p>
+                            </div>
+                            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat3_s1">Long-corridor surveys</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat3_s2">Topographic map generation</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat3_s3">Construction progress control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat3_s4">Earthwork volume calculations</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat3_s5">Bridge and structure inspection</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat3_s6">Pavement quality control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors sm:col-span-2 md:col-span-1">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat3_s7">Design comparison</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 4: Railway -->
+                    <div class="group rounded-3xl border border-slate-200 bg-white hover:border-blue-200 hover:shadow-xl transition-all overflow-hidden">
+                        <div class="p-6 md:p-10 flex flex-col md:flex-row gap-8">
+                            <div class="md:w-80 shrink-0">
+                                <div class="w-14 h-14 bg-blue-600/10 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.288 15.038a5.25 5.25 0 0 1 7.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 0 1 1.06 0Z" /></svg>
+                                </div>
+                                <span class="inline-block px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold uppercase tracking-widest mb-4 border border-slate-200" data-i18n="const_cat4_badge">Tracks · Embankments · Infrastructure</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4" data-i18n="const_cat4_title">Railway Objects</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed" data-i18n="const_cat4_desc">Route mapping, track geometry verification, and infrastructure inspection across full railway construction projects.</p>
+                            </div>
+                            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat4_s1">Route cartography</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat4_s2">Track-laying progress control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat4_s3">Embankment and ballast inspection</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat4_s4">Progress monitoring</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat4_s5">Track geometry verification</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat4_s6">Infrastructure control</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 5: Industrial Zones -->
+                    <div class="group rounded-3xl border border-slate-200 bg-white hover:border-blue-200 hover:shadow-xl transition-all overflow-hidden">
+                        <div class="p-6 md:p-10 flex flex-col md:flex-row gap-8">
+                            <div class="md:w-80 shrink-0">
+                                <div class="w-14 h-14 bg-blue-600/10 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205 3 1m1.5.5-1.5-.5M6.75 7.364V3h-3v18m3-13.636 10.5-3.819" /></svg>
+                                </div>
+                                <span class="inline-block px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold uppercase tracking-widest mb-4 border border-slate-200" data-i18n="const_cat5_badge">Under Construction</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4" data-i18n="const_cat5_title">Industrial Zones & Factories</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed" data-i18n="const_cat5_desc">Complete aerial monitoring of industrial construction — from structural assembly to final commissioning documentation.</p>
+                            </div>
+                            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat5_s1">Overall construction monitoring</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat5_s2">3D object modelling</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat5_s3">Structural assembly control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat5_s4">Complex node inspection</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat5_s5">Equipment and logistics control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat5_s6">Construction phase documentation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 6: Power Lines -->
+                    <div class="group rounded-3xl border border-slate-200 bg-white hover:border-blue-200 hover:shadow-xl transition-all overflow-hidden">
+                        <div class="p-6 md:p-10 flex flex-col md:flex-row gap-8">
+                            <div class="md:w-80 shrink-0">
+                                <div class="w-14 h-14 bg-blue-600/10 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" /></svg>
+                                </div>
+                                <span class="inline-block px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold uppercase tracking-widest mb-4 border border-slate-200" data-i18n="const_cat6_badge">Under Construction</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4" data-i18n="const_cat6_title">Power Transmission Lines</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed" data-i18n="const_cat6_desc">Route surveys, tower installation verification, and wire stringing inspection for high-voltage line construction projects.</p>
+                            </div>
+                            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat6_s1">Power line route survey</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat6_s2">Tower installation control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat6_s3">Wire stringing inspection</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat6_s4">Progress monitoring</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat6_s5">Clearance and geometry verification</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat6_s6">Work safety control</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cat 7: Hydraulic Structures -->
+                    <div class="group rounded-3xl border border-slate-200 bg-white hover:border-blue-200 hover:shadow-xl transition-all overflow-hidden">
+                        <div class="p-6 md:p-10 flex flex-col md:flex-row gap-8">
+                            <div class="md:w-80 shrink-0">
+                                <div class="w-14 h-14 bg-blue-600/10 text-blue-600 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                                    <svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" /></svg>
+                                </div>
+                                <span class="inline-block px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold uppercase tracking-widest mb-4 border border-slate-200" data-i18n="const_cat7_badge">Dams · Canals</span>
+                                <h3 class="text-2xl md:text-3xl font-black text-slate-900 uppercase tracking-tight mb-4" data-i18n="const_cat7_title">Hydraulic Structures</h3>
+                                <p class="text-slate-500 text-sm leading-relaxed" data-i18n="const_cat7_desc">Topographic surveys, deformation detection, and hard-to-reach zone inspection for dams, canals, and hydraulic infrastructure.</p>
+                            </div>
+                            <div class="flex-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat7_s1">Topographic survey</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat7_s2">Earthwork volume control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat7_s3">Dam condition monitoring</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat7_s4">Deformation detection</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat7_s5">Water flow control</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat7_s6">Hard-to-reach zone inspection</span>
+                                </div>
+                                <div class="flex items-start gap-3 p-4 rounded-2xl bg-slate-50 hover:bg-blue-50 transition-colors sm:col-span-2 md:col-span-1">
+                                    <CheckCircle size={18} class="text-blue-600 mt-0.5 shrink-0" />
+                                    <span class="text-sm text-slate-700 font-medium" data-i18n="const_cat7_s7">Design comparison</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="py-12 px-4 md:px-8">
+            <div class="max-w-screen-2xl mx-auto rounded-3xl md:rounded-[40px] bg-slate-950 p-10 md:p-20 relative overflow-hidden group shadow-2xl shadow-blue-500/10">
+                <div class="absolute top-0 right-0 w-1/2 h-full bg-blue-600/10 blur-[120px] -z-0 translate-x-1/2 group-hover:bg-blue-600/20 transition-colors duration-1000"></div>
+                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-10">
+                    <div class="max-w-2xl text-center md:text-left">
+                        <h2 class="text-3xl md:text-5xl font-bold text-white mb-6 tracking-tight uppercase leading-tight" data-i18n="const_cta_title">
+                            Start Monitoring Your Construction Project
+                        </h2>
+                        <p class="text-slate-400 text-lg leading-relaxed" data-i18n="const_cta_desc">
+                            We'll configure a drone monitoring solution for your specific site and objectives — proposal within 48 hours.
+                        </p>
+                    </div>
+                    <div class="shrink-0">
+                        <button data-popup="contact" class="px-10 py-5 bg-white text-slate-950 rounded-full font-black text-lg transition-all hover:bg-blue-600 hover:text-white hover:scale-110 active:scale-95 shadow-2xl flex items-center gap-3">
+                            <span data-i18n="const_btn">REQUEST CONSULTATION</span>
+                            <Calendar size={20} />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <Contact />
+        <Footer />
+    </main>
+</Layout>

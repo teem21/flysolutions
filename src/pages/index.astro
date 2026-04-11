@@ -25,10 +25,10 @@ import { Zap, Radio, TrendingDown, Layers, Settings, Shield, Activity, Cpu, Data
           <span data-i18n="home_hero_badge">Интегратор дроновых решений</span>
         </div>
         
-        <h1 class="text-6xl md:text-8xl font-black text-white leading-[0.9] tracking-tighter uppercase mb-6" data-i18n-html="home_hero_h1">
+        <h1 class="text-4xl sm:text-6xl md:text-8xl font-black text-white leading-[0.9] tracking-tighter uppercase mb-6" data-i18n-html="home_hero_h1">
           БПЛА<br />
           <span class="text-blue-500 italic">И ИИ</span><br />
-          <span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl">под вашу задачу</span>
+          <span class="text-slate-400 font-light translate-x-2 inline-block text-2xl sm:text-4xl md:text-6xl">под вашу задачу</span>
         </h1>
 
         <p class="text-lg text-slate-300 leading-relaxed max-w-xl mb-10" data-i18n="home_hero_desc">
@@ -196,6 +196,27 @@ import { Zap, Radio, TrendingDown, Layers, Settings, Shield, Activity, Cpu, Data
             </a>
           </div>
         </div>
+
+        <!-- Construction -->
+        <div class="group relative overflow-hidden rounded-[40px] bg-white border border-slate-200 p-10 transition-all hover:shadow-2xl hover:border-blue-500/20 md:col-span-2 lg:col-span-1">
+          <div class="absolute top-0 right-0 w-64 h-64 bg-blue-50 rounded-full -mr-32 -mt-32 transition-transform group-hover:scale-110"></div>
+          <div class="relative z-10">
+            <div class="flex items-center justify-between mb-8">
+              <span class="px-4 py-1 rounded-full bg-blue-600 text-white text-[10px] font-bold tracking-widest uppercase" data-i18n="home_sol_const_badge">Новое решение</span>
+              <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/30 group-hover:scale-110 transition-transform"><Layers size={24} /></div>
+            </div>
+            <h3 class="text-3xl font-black text-slate-900 mb-4 uppercase tracking-tight" data-i18n="home_sol_const_title">Мониторинг строительства</h3>
+            <p class="text-slate-500 text-sm leading-relaxed mb-8" data-i18n="home_sol_const_desc">Аэромониторинг прогресса, 3D-картография и инспекция стройплощадок, карьеров, дорог, железных дорог, ЛЭП и гидросооружений.</p>
+            <div class="flex flex-wrap gap-2 mb-8">
+              <span class="px-3 py-1 bg-slate-100 text-slate-600 text-[10px] font-bold rounded-lg uppercase" data-i18n="home_sol_const_tag1">3D-картография</span>
+              <span class="px-3 py-1 bg-slate-100 text-slate-600 text-[10px] font-bold rounded-lg uppercase" data-i18n="home_sol_const_tag2">Контроль прогресса</span>
+              <span class="px-3 py-1 bg-slate-100 text-slate-600 text-[10px] font-bold rounded-lg uppercase" data-i18n="home_sol_const_tag3">Объёмный расчёт</span>
+            </div>
+            <a href="/construction-solution" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm tracking-widest uppercase hover:gap-3 transition-all">
+              <span data-i18n="home_sol_const_link">Подробнее</span> <ArrowRight size={16} />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -317,7 +338,7 @@ import { Zap, Radio, TrendingDown, Layers, Settings, Shield, Activity, Cpu, Data
   <!-- CTA -->
   <section id="contact" class="py-24 bg-white">
     <div class="max-w-screen-2xl mx-auto px-4 md:px-8">
-      <div class="relative overflow-hidden rounded-[48px] bg-slate-950 p-12 md:p-24 text-center">
+      <div class="relative overflow-hidden rounded-3xl md:rounded-[48px] bg-slate-950 p-8 md:p-24 text-center">
         <!-- Background Decor -->
         <div class="absolute top-0 left-0 w-full h-full">
           <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-blue-600/20 blur-[120px] rounded-full"></div>
@@ -326,7 +347,7 @@ import { Zap, Radio, TrendingDown, Layers, Settings, Shield, Activity, Cpu, Data
 
         <div class="relative z-10 max-w-4xl mx-auto">
           <span class="text-blue-500 font-bold uppercase tracking-[0.2em] text-xs" data-i18n="home_cta_label">Контакт</span>
-          <h2 class="text-5xl md:text-8xl font-black text-white mt-6 mb-8 uppercase tracking-tighter leading-none" data-i18n-html="home_cta_title">ГОТОВЫ К<br /><span class="text-blue-500 italic">СОТРУДНИЧЕСТВУ?</span></h2>
+          <h2 class="text-3xl sm:text-5xl md:text-8xl font-black text-white mt-6 mb-8 uppercase tracking-tighter leading-none" data-i18n-html="home_cta_title">ГОТОВЫ К<br /><span class="text-blue-500 italic">СОТРУДНИЧЕСТВУ?</span></h2>
           <p class="text-slate-400 text-lg md:text-xl leading-relaxed mb-12 max-w-2xl mx-auto" data-i18n="home_cta_desc">
             Опишите вашу задачу — мы подготовим техническое решение и расчёт за 48 часов. Бесплатно.
           </p>
