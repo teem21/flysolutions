@@ -1088,7 +1088,7 @@ export const translations = {
     grid_dash_cad_ver: "Интерфейс CAD v2.4.0",
     // ── Homepage ──
     home_hero_badge: "Интегратор дроновых решений",
-    home_hero_h1: 'БПЛА<br /><span class="text-blue-500 italic">И ИИ</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl tracking-normal [word-spacing:0.3em]">под вашу задачу</span>',
+    home_hero_h1: 'БПЛА<br /><span class="text-blue-500 italic">И ИИ</span><br /><span class="text-slate-400 font-light translate-x-2 inline-block text-4xl md:text-6xl" style="letter-spacing:0;word-spacing:0.3em">под вашу задачу</span>',
     home_hero_desc: "Проектируем, поставляем и внедряем автономные дроновые системы с ИИ-аналитикой для промышленности, защиты природы и национальной безопасности.",
     home_hero_cta_demo: "Запросить демо",
     home_hero_cta_solutions: "Наши решения",
